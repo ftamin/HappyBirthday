@@ -16,9 +16,6 @@ namespace HappyBirthday.Services.SQLite
 {
     public class BirthdayService : IBirthdayService
     {
-        //private readonly string connString = string.Format("Data Source={0}", Path.Combine(Path.GetDirectoryName(Assembly.GetEntryAssembly().Location), @"db\hbd.db"));
-        //private readonly string hookBin = "https://hookb.in/7Z7ONqR7JOcZl29Xe1my";
-
         private readonly ApiClient apiClient;
         private readonly AppConfig config;
         private const int totalSecondsInADay = 86400;
